@@ -1,18 +1,18 @@
 [submodule "amsysuk"]
 	path = amsysuk
-	url = https://clburlison@github.com/amsysuk/public_config_profiles.git
+	url = https://github.com/amsysuk/public_config_profiles.git
 [submodule "golbiga"]
 	path = golbiga
-	url = https://clburlison@github.com/golbiga/Profiles
+	url = https://github.com/golbiga/Profiles
 [submodule "gregneagle"]
 	path = gregneagle
-	url = https://clburlison@github.com/gregneagle/Profiles
+	url = https://github.com/gregneagle/Profiles
 [submodule "nmcspadden"]
 	path = nmcspadden
-	url = https://clburlison@github.com/nmcspadden/Profiles
+	url = https://github.com/nmcspadden/Profiles
 [submodule "rtrouton"]
 	path = rtrouton
-	url = https://clburlison@github.com/rtrouton/profiles
+	url = https://github.com/rtrouton/profiles
 [submodule "erikng"]
 	path = erikng
-	url = https://clburlison@github.com/erikng/osxprofiles
+	url = https://github.com/erikng/osxprofiles
