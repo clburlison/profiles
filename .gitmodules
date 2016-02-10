@@ -16,3 +16,21 @@
 [submodule "erikng"]
 	path = erikng
 	url = https://github.com/erikng/osxprofiles
+[submodule "poundbangbash/excel"]
+	path = poundbangbash/excel
+	url = https://gist.github.com/e5046be406fea966e7e5.git
+[submodule "poundbangbash/word"]
+	path = poundbangbash/word
+	url = https://gist.github.com/e22bc2dcd025a6406800.git
+[submodule "poundbangbash/onenote"]
+	path = poundbangbash/onenote
+	url = https://gist.github.com/6743bc02d59eb2b03f00.git
+[submodule "poundbangbash/powerpoint"]
+	path = poundbangbash/powerpoint
+	url = https://gist.github.com/d083e1a21ebd64682f13.git
+[submodule "poundbangbash/outlook1"]
+	path = poundbangbash/outlook1
+	url = https://gist.github.com/2e0527364f362ece1c21.git
+[submodule "poundbangbash/outlook2"]
+	path = poundbangbash/outlook2
+	url = https://gist.github.com/010988ecda36174cf0d3.git
