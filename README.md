@@ -12,7 +12,7 @@ git clone --recursive https://github.com/clburlison/profiles.git
 To update:
 ```bash
 git pull
-git submodule -q foreach git pull -q origin master
+git submodule update --init --recursive
 ```
 
 By including all of these profiles in one place it is much easier to search on my computer.
