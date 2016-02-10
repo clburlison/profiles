@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>ADAllowMultiDomainAuth</key>
+      <true/>
+      <key>ADAllowMultiDomainAuthFlag</key>
+      <true/>
+      <key>ADCreateMobileAccountAtLogin</key>
+      <false/>
+      <key>ADCreateMobileAccountAtLoginFlag</key>
+      <true/>
+      <key>ADDefaultUserShell</key>
+      <string>/bin/bash</string>
+      <key>ADDefaultUserShellFlag</key>
+      <true/>
+      <key>ADDomainAdminGroupListFlag</key>
+      <true/>
+      <key>ADDomainAdminGroupList</key>
+      <array>
+        <string>DOMAIN\Domain Admins</string>
+        <string>DOMAIN\Enterprise Admins</string>
+      </array>
+      <key>ADForceHomeLocal</key>
+      <true/>
+      <key>ADForceHomeLocalFlag</key>
+      <true/>
+      <key>ADMapGGIDAttributeFlag</key>
+      <false/>
+      <key>ADMapGIDAttributeFlag</key>
+      <false/>
+      <key>ADMapUIDAttributeFlag</key>
+      <false/>
+      <key>ADMountStyle</key>
+      <string>smb</string>
+      <key>ADNamespace</key>
+      <string>domain</string>
+      <key>ADNamespaceFlag</key>
+      <true/>
+      <key>ADOrganizationalUnit</key>
+      <string>OU=Computer,DC=ad,DC=example,DC=com</string>
+      <key>ADPacketEncrypt</key>
+      <string>allow</string>
+      <key>ADPacketEncryptFlag</key>
+      <true/>
+      <key>ADPacketSign</key>
+      <string>allow</string>
+      <key>ADPacketSignFlag</key>
+      <true/>
+      <key>ADPreferredDCServerFlag</key>
+      <false/>
+      <key>ADRestrictDDNSFlag</key>
+      <false/>
+      <key>ADTrustChangePassIntervalDays</key>
+      <integer>14</integer>
+      <key>ADTrustChangePassIntervalDaysFlag</key>
+      <true/>
+      <key>ADUseWindowsUNCPath</key>
+      <false/>
+      <key>ADUseWindowsUNCPathFlag</key>
+      <true/>
+      <key>ADWarnUserBeforeCreatingMA</key>
+      <false/>
+      <key>ADWarnUserBeforeCreatingMAFlag</key>
+      <true/>
+      <key>ClientID</key>
+      <string>%ComputerName%</string>
+      <key>HostName</key>
+      <string>ad.example.com</string>
+      <key>Password</key>
+      <string>password_here</string>
+      <key>PayloadDisplayName</key>
+      <string>Active Directory</string>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadIdentifier</key>
+      <string>912F726C-4C58-4F94-9377-B815FC872441.alacarte.directory.72670a20-7a62-0132-0807-2820664ad3a9</string>
+      <key>PayloadType</key>
+      <string>com.apple.DirectoryService.managed</string>
+      <key>PayloadUUID</key>
+      <string>C63F6809-774E-4F9A-8174-F58CEC075C90</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>UserName</key>
+      <string>ad-join-account</string>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Active Directory</string>
+  <key>PayloadIdentifier</key>
+  <string>com.example.activedirectory</string>
+  <key>PayloadOrganization</key>
+  <string>Example Co</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>912F726C-4C58-4F94-9377-B815FC872441</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

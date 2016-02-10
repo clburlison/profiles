@@ -1,0 +1,1 @@
+More Active Directory info: https://support.apple.com/en-us/HT202834

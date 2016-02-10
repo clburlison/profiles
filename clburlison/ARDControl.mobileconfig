@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadIdentifier</key>
+  <string>com.example.remotemanagement</string>
+  <key>PayloadRemovalDisallowed</key>
+  <true/>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>6AE5512A-6860-4AC4-8CF2-8A5E5413462F</string>
+  <key>PayloadOrganization</key>
+  <string>Example Co</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadDisplayName</key>
+  <string>Remote Management Admin</string>
+  <key>PayloadDescription</key>
+  <string>Allow Remote Control when Apple Remote Desktop is open.</string>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadContent</key>
+      <dict>
+        <key>com.apple.RemoteManagement</key>
+        <dict>
+          <key>Forced</key>
+          <array>
+            <dict>
+              <key>mcx_preference_settings</key>
+              <dict>
+                <key>AdminConsoleAllowsRemoteControl</key>
+                <true/>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>PayloadType</key>
+      <string>com.apple.ManagedClient.preferences</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.example.remotemanagement.6AE5512A-6860-4AC4-8CF2-8A5E5413462F.customsettings.B6E8C3A0-C5F4-4817-AB65-AC9065B9B420</string>
+      <key>PayloadUUID</key>
+      <string>B6E8C3A0-C5F4-4817-AB65-AC9065B9B420</string>
+      <key>PayloadEnabled</key>
+      <true/>
+    </dict>
+  </array>
+</dict>
+</plist>

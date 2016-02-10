@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+          <key>PayloadType</key>
+          <string>com.apple.applicationaccess.new</string>
+          <key>PayloadVersion</key>
+          <integer>1</integer>
+          <key>PayloadIdentifier</key>
+          <string>com.example.config.applicationaccess</string>
+          <key>PayloadEnabled</key>
+          <true/>
+          <key>PayloadUUID</key>
+          <string>524512d1-193a-7bd2-cd4f-b25f842fd97b</string>
+          <key>PayloadDisplayName</key>
+          <string>Application Restrictions</string>
+          <key>familyControlsEnabled</key>
+          <true/>
+          <key>pathBlackList</key>
+          <array>
+              <string>/Applications/Mail.app</string>
+              <string>/Applications/Messages.app</string>
+          </array>
+          <key>pathWhiteList</key>
+          <array>
+              <string>/</string>
+          </array>
+          <key>whiteList</key>
+          <array/>
+      </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Application Restrictions.</string>
+    <key>PayloadDisplayName</key>
+    <string>Application Restrictions</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.applicationaccess</string>
+    <key>PayloadOrganization</key>
+    <string>Example Co</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>176EF199-E93F-46EE-9757-47C7CD66F7FC</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

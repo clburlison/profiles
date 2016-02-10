@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadIdentifier</key>
+    <string>com.example.prefpanes</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>72F73F53-A5E6-48CE-AB73-27641F526EF7</string>
+    <key>PayloadOrganization</key>
+    <string>Example Co</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadDisplayName</key>
+    <string>Preference Panes</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.systempreferences</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.example.profile.prefpanes</string>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadUUID</key>
+        <string>d264dfc2-2b01-f0d0-24e2-9c98d6f3239b</string>
+        <key>PayloadDisplayName</key>
+        <string>Preference Panes</string>
+        <key>DisabledPreferencePanes</key>
+        <array>
+          <string>com.apple.preferences.icloud</string>
+          <string>com.apple.preferences.internetaccounts</string>
+          <string>com.apple.preferences.configurationprofiles</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>
