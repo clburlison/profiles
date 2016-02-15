@@ -16,7 +16,7 @@
               <dict>
                 <key>ReportPrefs</key>
                 <dict>
-                  <key>google_api_lookup</key>
+                  <key>location_address_lookup</key>
                   <false/>
                 </dict>
               </dict>
