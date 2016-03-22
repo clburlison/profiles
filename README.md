@@ -9,10 +9,15 @@ For new clones:
 git clone --recursive https://github.com/clburlison/profiles.git
 ```
 
-To update:
+To update this cloned repo:
 ```bash
 git pull
 git submodule update --init --recursive
+```
+
+To update the external submodule repos:
+```bash
+git submodule foreach git pull origin master; git commit -am 'Submodule Sync'
 ```
 
 By including all of these profiles in one place it is much easier to search on my computer.
