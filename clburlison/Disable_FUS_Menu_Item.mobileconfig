@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadContent</key>
+            <dict>
+                <key>com.apple.mcxMenuExtras</key>
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                <key>User.menu</key>
+                                <false/>
+                                <key>delaySeconds</key>
+                                <real>2</real>
+                            </dict>
+                        </dict>
+                    </array>
+                    <key>mcx_targets</key>
+                    <array>
+                        <string>user</string>
+                    </array>
+                </dict>
+            </dict>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>PayloadIdentifier</key>
+            <string>MCXToProfile.b7d9d40b-6bda-419e-9244-779d0a3fc690.alacarte.customsettings.de0fd95f60c3-20150224</string>
+            <key>PayloadType</key>
+            <string>com.apple.ManagedClient.preferences</string>
+            <key>PayloadUUID</key>
+            <string>562365BC-9533-423C-97DF-3A74F42B69EB</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+     <key>PayloadDescription</key>
+    <string>Configures Menu Items
+- Removes FUS Menu Item
+    </string>
+    <key>PayloadDisplayName</key>
+    <string>Config: Menu Items</string>
+    <key>PayloadIdentifier</key>
+    <string>FUS_Menu_Item</string>
+    <key>PayloadOrganization</key>
+    <string>Your_Organisation</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>FA363A48-7F07-4620-9CAD-319DD828F386</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
