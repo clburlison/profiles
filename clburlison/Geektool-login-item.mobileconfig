@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoLaunchedApplicationDictionary-managed</key>
+			<array>
+				<dict>
+					<key>Hide</key>
+					<false/>
+					<key>Path</key>
+					<string>/Applications/GeekTool.app/Contents/PlugIns/GeekTool.prefPane/Contents/Resources/GeekTool Helper.app/</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Login Items:  Managed Items</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.b7f3d0a0-28cb-0131-a572-002500eedaae.alacarte.loginitems.f9328b50-28cb-0131-a574-002500eedaae.managed</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginitems.managed</string>
+			<key>PayloadUUID</key>
+			<string>b384e3eb-4ed7-beda-cf28-fbf7865b12bf</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DisableLoginItemsSuppression</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Login Items:  User Restrictions</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.b7f3d0a0-28cb-0131-a572-002500eedaae.alacarte.loginitems.f9328b50-28cb-0131-a574-002500eedaae.loginwindow</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>3d9ef9ea-33aa-48b0-1767-107f8c7d73d8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>We are going to add Geektool to the local login-items for all users</string>
+	<key>PayloadDisplayName</key>
+	<string>Geektool-login-item</string>
+	<key>PayloadIdentifier</key>
+	<string>Geektool-login-item</string>
+	<key>PayloadOrganization</key>
+	<string>Your_Organisation</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>b7f3d0a0-28cb-0131-a572-002500eedaae</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
