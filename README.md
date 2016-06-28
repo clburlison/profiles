@@ -2,7 +2,13 @@ clburlison profiles
 ===
 
 
-I'm using submodules to include profiles from other Github users. If you aren't familiar with git submodules use the commands below.
+I'm using submodules to include profiles from other Github users. By including all of these profiles in one place it is much easier to search on my computer.
+
+
+
+# Commands
+
+If you aren't familiar with git submodules use the commands below.
 
 For new clones:
 ```bash
@@ -11,8 +17,7 @@ git clone --recursive https://github.com/clburlison/profiles.git
 
 To update this cloned repo:
 ```bash
-git pull
-git submodule update --init --recursive
+git pull; git submodule update --init --recursive
 ```
 
 To update the external submodule repos:
@@ -20,9 +25,11 @@ To update the external submodule repos:
 git submodule foreach git pull origin master; git commit -am 'Submodule Sync'
 ```
 
-By including all of these profiles in one place it is much easier to search on my computer.
+Hopefully you don't have to use the above command as the author of this repo tries to keep it updated. However PR are welcome.
 
-#Disclaimer 
+
+
+# Disclaimer 
 You should read and make sure you understand what each profile is doing prior to installing. If you don't know what a key is doing it's your job to look it up. 
 
 _All files provided as is. You run it. You break it. You fix it. I hold no responsibility._
