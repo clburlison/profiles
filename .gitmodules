@@ -34,6 +34,9 @@
 [submodule "poundbangbash/outlook2"]
 	path = poundbangbash/outlook2
 	url = https://gist.github.com/010988ecda36174cf0d3.git
+[submodule "rodchristiansen"]
+	path = rodchristiansen
+	url = https://github.com/rodchristiansen/Profiles.git
 [submodule "vmiller"]
 	path = vmiller
 	url = https://github.com/vmiller/profiles.git
