@@ -40,3 +40,6 @@
 [submodule "vmiller"]
 	path = vmiller
 	url = https://github.com/vmiller/profiles.git
+[submodule "opragel"]
+	path = opragel
+	url = https://github.com/opragel/profiles.git
