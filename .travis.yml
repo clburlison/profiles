@@ -1,0 +1,18 @@
+language: generic
+sudo: false
+
+before_install:
+- openssl aes-256-cbc -K $encrypted_2a7ed9759856_key -iv $encrypted_2a7ed9759856_iv -in .github_deploy_key.enc -out /tmp/github_deploy_key -d
+- eval "$(ssh-agent -s)"
+- chmod 600 /tmp/github_deploy_key
+- ssh-add /tmp/github_deploy_key
+
+script:
+- git config --global user.name "clayton-bot"
+- git config --global user.email "clburlison+gitbot@gmail.com"
+- git config --global push.default simple
+- git remote set-url origin git@github.com:clburlison/profiles.git
+- git submodule foreach git pull origin master
+- git add -fA
+- git commit --allow-empty -m "Submodule Sync"
+- git push origin master

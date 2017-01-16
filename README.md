@@ -1,10 +1,10 @@
 clburlison profiles
 ===
 
+[![Build Status](https://travis-ci.org/clburlison/profiles.svg?branch=master)](https://travis-ci.org/clburlison/profiles)
 
-I'm using submodules to include profiles from other Github users. By including all of these profiles in one place it is much easier to search on my computer.
 
-
+This repo uses submodules to include profiles from other Github users. By including all of these profiles in one place it is much easier to search locally on ones computer. 
 
 # Commands
 
@@ -17,20 +17,13 @@ git clone --recursive https://github.com/clburlison/profiles.git
 
 To update this cloned repo:
 ```bash
-git pull; git submodule update --init --recursive
+git pull --recurse-submodules
 ```
 
-To update the external submodule repos:
-```bash
-git submodule foreach git pull origin master; git commit -am 'Submodule Sync'
-```
+*NOTE:* This repo is updated daily with a travis build.
 
-Hopefully you don't have to use the above command as the author of this repo tries to keep it updated. However PR are welcome.
-
-
-
-# Disclaimer 
-You should read and make sure you understand what each profile is doing prior to installing. If you don't know what a key is doing it's your job to look it up. 
+# Disclaimer
+You should read and make sure you understand what each profile is doing prior to installing. If you don't know what a key is doing it's your job to look it up.
 
 _All files provided as is. You run it. You break it. You fix it. I hold no responsibility._
 
@@ -39,7 +32,7 @@ _All files provided as is. You run it. You break it. You fix it. I hold no respo
 
 	The MIT License (MIT)
 
-	Copyright (c) 2016 Clayton Burlison
+	Copyright (c) 2017 Clayton Burlison
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
