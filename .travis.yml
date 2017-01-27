@@ -12,6 +12,7 @@ script:
 - git config --global user.email "clburlison+gitbot@gmail.com"
 - git config --global push.default simple
 - git remote set-url origin git@github.com:clburlison/profiles.git
+- git checkout master
 - git submodule foreach git pull origin master
 - git add -fA
 - git commit --allow-empty -m "Submodule Sync"
