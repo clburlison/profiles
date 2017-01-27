@@ -15,4 +15,5 @@ script:
 - git submodule foreach git pull origin master
 - git add -fA
 - git commit --allow-empty -m "Submodule Sync"
+- git show --name-status | cat
 - git push origin master
