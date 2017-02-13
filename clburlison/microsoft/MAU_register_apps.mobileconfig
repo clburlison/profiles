@@ -51,10 +51,24 @@
 										<key>LCID</key>
 										<integer>1033</integer>
 									</dict>
+									<key>/Applications/Skype for Business.app</key>
+									<dict>
+										<key>Application ID</key>
+										<string>MSFB16</string>
+										<key>LCID</key>
+										<integer>1033</integer>
+									</dict>
 									<key>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app</key>
 									<dict>
 										<key>Application ID</key>
 										<string>MSau03</string>
+										<key>LCID</key>
+										<integer>1033</integer>
+									</dict>
+									<key>/Library/Application Support/Microsoft/MERP2.0/Microsoft Error Reporting.app</key>
+									<dict>
+										<key>Application ID</key>
+										<string>Merp2</string>
 										<key>LCID</key>
 										<integer>1033</integer>
 									</dict>
