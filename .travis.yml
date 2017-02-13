@@ -8,4 +8,4 @@ before_install:
 - ssh-add /tmp/github_deploy_key
 
 script:
-- ./scripts/travis_update.sh
+- .scripts/travis_update.sh
