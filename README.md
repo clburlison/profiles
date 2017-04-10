@@ -22,32 +22,35 @@ git pull --recurse-submodules
 
 *NOTE:* This repo is updated daily with a travis build.
 
+## Adding repos
+
+If you would like to add your profiles repo to this auto update repo:
+
+1. Fork this repo:
+
+		git clone --recursive https://github.com/clburlison/profiles.git
+
+1. Create a new branch
+
+		git checkout -b github_username
+
+1. Add your repo as a git submodule
+
+		git submodule add https://github.com/github_username/repo_name github_username
+
+1. Commit your changes
+
+		git commit -m "Add github_username"
+
+1. Push to your fork
+
+		git push
+
+1. Open a [pull request](https://github.com/clburlison/profiles/pulls)
+
+
 # Disclaimer
 You should read and make sure you understand what each profile is doing prior to installing. If you don't know what a key is doing it's your job to look it up.
 
 _All files provided as is. You run it. You break it. You fix it. I hold no responsibility._
 
-
-# License
-
-	The MIT License (MIT)
-
-	Copyright (c) 2017 Clayton Burlison
-
-	Permission is hereby granted, free of charge, to any person obtaining a copy
-	of this software and associated documentation files (the "Software"), to deal
-	in the Software without restriction, including without limitation the rights
-	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-	copies of the Software, and to permit persons to whom the Software is
-	furnished to do so, subject to the following conditions:
-
-	The above copyright notice and this permission notice shall be included in all
-	copies or substantial portions of the Software.
-
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-	SOFTWARE.
