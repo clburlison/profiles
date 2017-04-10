@@ -43,3 +43,6 @@
 [submodule "opragel"]
 	path = opragel
 	url = https://github.com/opragel/profiles.git
+[submodule "poundbangbash/office2016"]
+	path = poundbangbash/office2016
+	url = https://gist.github.com/poundbangbash/58ec77648d3903c40332493bf260d901
