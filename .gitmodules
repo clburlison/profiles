@@ -55,3 +55,6 @@
 [submodule "apettinen"]
 	path = apettinen
 	url = https://github.com/apettinen/profiles.git
+[submodule "avantgardefuselage"]
+	path = avantgardefuselage
+	url = https://github.com/avantgardefuselage/macos-profiles.git
