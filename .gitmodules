@@ -46,3 +46,15 @@
 [submodule "poundbangbash/office2016"]
 	path = poundbangbash/office2016
 	url = https://gist.github.com/poundbangbash/58ec77648d3903c40332493bf260d901
+[submodule "mwohlgemuth"]
+	path = mwohlgemuth
+	url = https://github.com/mwohlgemuth/profiles.git
+[submodule "umeditor"]
+	path = umeditor
+	url = https://github.com/umeditor/profiles.git
+[submodule "apettinen"]
+	path = apettinen
+	url = https://github.com/apettinen/profiles.git
+[submodule "avantgardefuselage"]
+	path = avantgardefuselage
+	url = https://github.com/avantgardefuselage/macos-profiles.git
