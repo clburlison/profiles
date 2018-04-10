@@ -58,3 +58,6 @@
 [submodule "avantgardefuselage"]
 	path = avantgardefuselage
 	url = https://github.com/avantgardefuselage/macos-profiles.git
+[submodule "neilmartin83"]
+	path = neilmartin83
+	url = https://github.com/neilmartin83/configuration_profiles/
