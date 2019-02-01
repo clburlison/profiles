@@ -61,3 +61,6 @@
 [submodule "neilmartin83"]
 	path = neilmartin83
 	url = https://github.com/neilmartin83/configuration_profiles/
+[submodule "flammable"]
+	path = flammable
+	url = https://github.com/flammable/profiles
