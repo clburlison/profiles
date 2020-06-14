@@ -7,9 +7,6 @@
 [submodule "gregneagle"]
 	path = gregneagle
 	url = https://github.com/gregneagle/Profiles
-[submodule "nmcspadden"]
-	path = nmcspadden
-	url = https://github.com/nmcspadden/Profiles
 [submodule "rtrouton"]
 	path = rtrouton
 	url = https://github.com/rtrouton/profiles
