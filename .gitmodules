@@ -1,6 +1,3 @@
-[submodule "amsysuk"]
-	path = amsysuk
-	url = https://github.com/amsysuk/public_config_profiles.git
 [submodule "golbiga"]
 	path = golbiga
 	url = https://github.com/golbiga/Profiles
@@ -58,3 +55,7 @@
 [submodule "flammable"]
 	path = flammable
 	url = https://github.com/flammable/profiles
+[submodule "gmarnin"]
+	path = gmarnin
+	url = https://github.com/gmarnin/Profiles
+	
